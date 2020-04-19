@@ -32,7 +32,7 @@ self.addEventListener("activate", (event) => {
 //           if (response) {
 //             return response;
 //           }
-//           return fetch(event.request).catch(() => () => caches.match(event.request));
+//           return fetch(event.request).catch(() => caches.match(event.request));
 //         }
 //       )
 //     );
